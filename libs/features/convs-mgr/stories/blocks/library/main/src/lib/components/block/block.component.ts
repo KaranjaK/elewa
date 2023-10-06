@@ -315,6 +315,10 @@ export class BlockComponent implements OnInit {
     return false;
   }
 
+  toggleBlock() {
+    
+  }
+
   editBlock() { 
     
     if (this.type === this.videoType) {
