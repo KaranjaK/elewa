@@ -51,12 +51,19 @@ mat-card {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	visibility: hidden;
+
+	.fa-ellipsis-vertical{
+		visibility: visible;
+		position: relative;
+		left: 5rem;
+	}
 
 	.icons {
 		cursor: pointer;
 	
 		* {
-			color: var(--convs-mgr-color-medium-shade);
+			color: var(--convs-mgr-color-primary-black);
 			
 			&:hover {
 				color: var(--convs-mgr-color-primary-purple);
